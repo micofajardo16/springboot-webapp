@@ -6,7 +6,7 @@ public class Product {
     private String productName;
     private int price;
 
-    public Product(String productName, String productId, int price) {
+    public Product(String productId, String productName, int price) {
         this.productId = productId;
         this.productName = productName;
         this.price = price;
@@ -34,5 +34,14 @@ public class Product {
 
     public void setPrice(int price) {
         this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Product{" +
+                "productId = " + productId + ", " +
+                "productName = " + productName + ", " +
+                "price = " + price +
+                "}";
     }
 }
