@@ -1,7 +1,15 @@
-package com.example.webapp.models;
+package com.example.webapp.model;
 
+import jakarta.persistence.Entity;
+import jakarta.persistence.Id;
+import lombok.NoArgsConstructor;
+
+@NoArgsConstructor
+@Entity
 public class Product {
-    
+
+    // @Id tells jpa that its a primary key
+    @Id
     private String productId;
     private String productName;
     private int price;

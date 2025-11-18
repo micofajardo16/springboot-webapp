@@ -1,4 +1,4 @@
-package com.example.webapp.controllers;
+package com.example.webapp.controller;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.DeleteMapping;
@@ -10,8 +10,8 @@ import org.springframework.web.bind.annotation.PutMapping;
 import org.springframework.web.bind.annotation.RestController;
 import org.springframework.web.bind.annotation.RequestBody;
 
-import com.example.webapp.models.Product;
-import com.example.webapp.services.ProductService;
+import com.example.webapp.model.Product;
+import com.example.webapp.service.ProductService;
 
 import java.util.List;
 
