@@ -56,4 +56,7 @@ public class ProductController {
     public void deleteProduct(@PathVariable String productId) {
         service.deleteProduct(productId);
     }
+
+
+    // REMAKE EVERYTHING, Request and Response must be in Dto
 }
